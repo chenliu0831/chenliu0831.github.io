@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-15T00:17:54.228337+00:00",
+  "commit": "bc52a60",
+  "config": {
+    "floors": 20,
+    "elevators": 6,
+    "capacity": 8,
+    "workloads": [
+      "up_peak",
+      "down_peak",
+      "normal_hour",
+      "stress"
+    ],
+    "algorithms": [
+      "round_robin",
+      "nearest_car",
+      "adaptive"
+    ],
+    "passengers": 500,
+    "seed": 42,
+    "max_ticks": 2500
+  }
+}
